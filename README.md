@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+<h1 align="center">Família Financeiro</h1>
+<h2 align="center">Projeto do front-end</h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ <img src="https://img.shields.io/badge/Status%20-%20Em%20desenvolvimento%20-%20blue?style=for-the-badge">
 
-## Available Scripts
 
-In the project directory, you can run:
+<div  align="center">
+  <img src="https://github.com/user-attachments/assets/75e93230-3d2b-41bd-8ece-d4a3727f14ef"></img>
+</div>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2>�� Sobre</h2>
+<p>Objetivo do projeto:</p>
+<p>-Aplicar os conhecimentos adquiridos em Typescript.</p>
+<p>-Evoluir no desenvolvimento de projetos front-end com a utilização da framwkork React.js.</p>
+<p>-Aplicar os conhecimentos adquiridos para utilização da biblioteca Redux.</p>
+<p>-Criar uma API REST de orçamento familiar.</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## �� Funcionalidades (em desenvolvimento)
+<p>Dashboard na página inicial com:</p>
+<p>- Filtro de informações por mês.</p>
+<p>- Cards individuais para mostar o total de despesas, receitas e saldo do mês.</p>
+<p>- Gráfico de despesas por categoria.</p>
+<p>- Gráfico de evolução de saldo mensal.</p>
+<p>- Tabela com resumo de despesas e receitas por categoria.</p>
+<p>Cadastro de receitas, despesas e categorias.</p>
+<p>Relatório de receitas e despesas por entradas.</p>
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## �� Tecnologias
+<div>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+</div>
