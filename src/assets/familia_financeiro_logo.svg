@@ -1,0 +1,8 @@
+<svg width="127" height="48" viewBox="0 0 127 48" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .familia {{ fill: #2e7d32; font-family: Arial, sans-serif; font-size: 18px; }}
+    .financeiro {{ fill: #0277bd; font-family: Arial, sans-serif; font-size: 18px; }}
+  </style>
+  <text x="0" y="20" class="familia">Família</text>
+  <text x="0" y="40" class="financeiro">Financeiro</text>
+</svg>

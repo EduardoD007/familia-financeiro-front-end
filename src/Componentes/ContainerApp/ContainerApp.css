@@ -1,0 +1,25 @@
+.container-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(254, 255, 255);;
+  margin: auto;
+  margin-top: 10px;
+  width: 70%;
+  height: 920px;
+  border-radius: 12px;
+  box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+}
+
+.container-app .total{
+  display: flex;
+  justify-content:space-around;
+  width: 95%;
+}
+
+.container-app .charts{
+  display: flex;
+  justify-content:space-around;
+  width: 95%;
+  margin-top:30px;
+}

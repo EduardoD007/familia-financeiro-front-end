@@ -1,0 +1,65 @@
+.nav {
+  background-color: rgb(254, 255, 255);
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-template-areas: "logo home receitas despesas relatorios";
+  height: 100px;
+  width: 100wv;
+  padding: 0px 120px 10px 120px;
+  align-items: end;
+  z-index: 1;
+  font-family: "Inter", "Segoe UI", "Roboto", "Arial", sans-serif;
+  font-size: 19px;
+  text-decoration: none;
+  @media (max-width: 1024px) {
+    grid-template-areas:
+      "logo logo"
+      "home relatorios"
+      "receitas despesas";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 200px;
+    justify-items: center;
+    padding-top: 10px;
+  }
+}
+
+.logo {
+  cursor: pointer;
+  grid-area: logo;
+}
+
+.home {
+  grid-area: home;
+}
+
+.relatorios {
+  grid-area: relatorios;
+}
+
+.despesas {
+  grid-area: despesas;
+}
+
+.receitas {
+  grid-area: receitas;
+  
+}
+
+.nav .img {
+  width: 200px;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav .selected {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.nav .link {
+  color: rgb(0, 0, 0);
+}

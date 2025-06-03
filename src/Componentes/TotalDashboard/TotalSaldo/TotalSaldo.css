@@ -1,0 +1,18 @@
+
+.total-saldo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color:white;
+  margin-top:20px;
+  background-color: rgb(65, 65, 255);
+  width:250px;
+  height: 90px;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.total-saldo .texto {
+  font-size: 18px
+}

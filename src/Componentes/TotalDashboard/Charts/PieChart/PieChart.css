@@ -1,0 +1,13 @@
+.pie-chart {
+  text-align: left;
+}
+
+.pie-chart .titulo {
+  margin-bottom: 10px;
+}
+
+.pie-chart .container {
+  padding: 5px;
+  border: 1px rgb(199, 201, 201) solid;
+  border-radius: 12px;
+}

@@ -1,0 +1,10 @@
+.campo-texto {
+  margin: 0px 10px 0px 5px;
+}
+
+.campo-texto input {
+  height: 25px;
+  border: none;
+  border-radius: 8px;
+
+}
