@@ -1,0 +1,10 @@
+.relatorios-select {
+  display: flex;
+  justify-content:space-between;
+  padding: 30px;
+}
+
+.relatorios-tabela {
+  margin:auto;
+  width: 95%;
+}

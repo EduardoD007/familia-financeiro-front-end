@@ -5,7 +5,6 @@ const iconeProps = {
   size: 38,
 };
 const TotalSaldo = (props) => {
-  console.log(props);
   let receitasSoma = 0;
   let despesasSoma = 0;
 

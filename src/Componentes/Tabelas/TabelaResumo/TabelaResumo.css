@@ -36,6 +36,12 @@
   padding-right: 10px;
 }
 
+.tab-resumo .titulo {
+  font-size:18px;
+  font-weight:bold;
+  margin-bottom: 10px;
+}
+
 .tab-resumo .td-valor-receita {
   color:green;
   font-weight: bold;
@@ -48,7 +54,7 @@
 }
 
 .tab-resumo .tr-saldo {
-  background-color: rgb(214, 214, 214);
+  background-color: rgb(241, 241, 241);
   color:black;
   font-weight: bold;
   height: 30px;

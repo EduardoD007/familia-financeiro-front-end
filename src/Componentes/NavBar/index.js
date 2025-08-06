@@ -1,57 +1,69 @@
 import './NavBar.css'
 import classNames  from 'classnames'
-import { TbCircleLetterDFilled, TbCircleLetterRFilled, TbCircleLetterHFilled } from "react-icons/tb";
+import { TbCircleLetterDFilled, TbCircleLetterRFilled, TbCircleLetterHFilled, TbCircleLetterCFilled } from "react-icons/tb";
+import { useNavigate } from 'react-router-dom';
 
 const iconeProps = {
   size: 24,
   style: {marginRight: '10px', verticalAlign: 'middle'}
 };
 function NavBar() {
+
+  const navigate = useNavigate();
+
   return (
     <div className='nav'>
       <div className='logo'>
         <img className='img' src="./imagens/familia_financeiro_logo.png" alt='imagem logo'></img>
       </div>
-      <div className='home'>
+      <div className='home' onClick={() => navigate('/')}>
         <TbCircleLetterHFilled {...iconeProps} color='yellow'/>
-        <a href='/' className={classNames('link',
+        <span className={classNames('link',
           {
             'selected' : window.location.pathname === '/'
           }
         )}>
           Home
-        </a>
+        </span>
       </div>
-      <div className='receitas'>
+      <div className='receitas' onClick={() => navigate('/receitas')}>
         <TbCircleLetterRFilled {...iconeProps} color='green'/>
-        <a href='/receitas' className={classNames('link',
+        <span className={classNames('link',
           {
             'selected' : window.location.pathname === '/receitas'
           }
         )}>
           Receitas
-        </a>
-        
+        </span>
       </div>
-      <div className='despesas'>
+      <div className='despesas' onClick={() => navigate('/despesas')}>
         <TbCircleLetterDFilled {...iconeProps} color='red'/>
-        <a href='/despesas' className={classNames('link',
+        <span className={classNames('link',
           {
             'selected' : window.location.pathname === '/despesas'
           }
         )}>
           Despesas
-        </a>
+        </span>
       </div>
-      <div className='relatorios'>
+      <div className = 'categorias' onClick={() => navigate('/categorias')} >
+        <TbCircleLetterCFilled {...iconeProps} color='purple'/>
+        <span className={classNames('link', 
+          {
+            'selected' : window.location.pathname === '/categorias'
+          })}>
+          Categorias
+        </span>
+      </div>
+      <div className='relatorios' onClick={() => navigate('/relatorios')}>
         <TbCircleLetterRFilled {...iconeProps} color='blue'/>
-        <a href='/relatorios' className={classNames('link',
+        <span href='/relatorios' className={classNames('link',
           {
             'selected' : window.location.pathname === '/relatorios'
           }
         )}>
           Relatorios
-        </a>
+        </span>
       </div>
     </div>
   )

@@ -5,17 +5,25 @@ const PieCharts = (props) => {
 
   let listaChart = [];
   let idChart = -1
+  let outrasTotal = 0;
 
   props.despesasCategoria.map((despesa) => {
-    idChart ++;
-    listaChart.push({id:idChart, value:despesa.total_produtos, label:despesa.descricao});
+    idChart ++; 
+    if(idChart <= 5) {
+      listaChart.push({id:idChart, value:despesa.total_produtos, label:despesa.descricao});
+    }else {
+      outrasTotal+= Number(despesa.total_produtos)
+    }
     return listaChart;
   }
-);
+  );
+
+  listaChart.push({id:idChart, value: outrasTotal, label: 'Outras'})
+  console.log(listaChart)
 
   return (
     <div className='pie-chart'>
-      <div className='titulo'>
+      <div className='titulo-pie'>
         Despesas por Categoria
       </div>
       <div className='container'>

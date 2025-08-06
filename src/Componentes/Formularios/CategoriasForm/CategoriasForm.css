@@ -1,0 +1,13 @@
+.categorias-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.categorias-form .botao-cadastro {
+  margin-top: 20px;
+  display: flex;
+  width: fit-content;
+}

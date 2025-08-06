@@ -1,8 +1,8 @@
 .nav {
   background-color: rgb(254, 255, 255);
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr 2fr;
-  grid-template-areas: "logo home receitas despesas relatorios";
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+  grid-template-areas: "logo home receitas despesas categorias relatorios";
   height: 100px;
   width: 100wv;
   padding: 0px 120px 10px 120px;
@@ -13,9 +13,9 @@
   text-decoration: none;
   @media (max-width: 1024px) {
     grid-template-areas:
-      "logo logo"
-      "home relatorios"
-      "receitas despesas";
+      "logo home"
+      "receitas despesas"
+      "categorias relatorios";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     height: 200px;
@@ -43,7 +43,10 @@
 
 .receitas {
   grid-area: receitas;
-  
+}
+
+.categorias {
+  grid-area: categorias
 }
 
 .nav .img {
@@ -62,4 +65,5 @@ a {
 
 .nav .link {
   color: rgb(0, 0, 0);
+  cursor: pointer;
 }

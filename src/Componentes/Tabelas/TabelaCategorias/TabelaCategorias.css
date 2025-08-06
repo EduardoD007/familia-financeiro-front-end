@@ -1,0 +1,48 @@
+.tabela-categoria {
+  width: 95%;
+  overflow-y: auto;
+  height: 300px;
+  border:1px solid rgb(187, 187, 187);
+  margin-top: 10px;
+}
+
+.tabela-categoria .table {
+  width:100%;
+  border: 1px solid rgb(187, 187, 187);
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.tabela-categoria .tr {
+  border: 1px solid rgb(187, 187, 187);
+}
+
+.tabela-categoria .tr-total {
+  border: 1px solid rgb(187, 187, 187);
+  background-color: rgb(241, 241, 241);
+  color:black;
+  font-weight: bold;
+  height: 30px;
+  font-size: 19px;
+}
+
+.tabela-categoria .td {
+  width: 33%;
+  padding: 5px;
+}
+
+.tabela-categoria .td-2 {
+  width: 10%;
+}
+
+.tabela-categoria .td-receita {
+  width: 20%;
+  color: green;
+  font-weight: bold;
+}
+
+.tabela-categoria .td-despesa {
+  width: 20%;
+  color: red;
+  font-weight: bold;
+}

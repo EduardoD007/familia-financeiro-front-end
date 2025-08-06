@@ -14,6 +14,9 @@ function TabelaResumo(props) {
 
   return (
     <div className="tab-resumo">
+      <div className="titulo">
+        Resumo por Categoria
+      </div>
       <table className="tab">
         <tbody>
           <tr>

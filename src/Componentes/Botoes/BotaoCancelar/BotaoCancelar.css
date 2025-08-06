@@ -1,0 +1,20 @@
+.botao-cancelar {
+  background-color: rgb(196, 95, 95);
+  font-size: 23px;
+  font-weight: bold;
+  color:white;
+  width: 170px;
+  height: 44px;
+  border-style: solid;
+  border-color: rgb(175, 80, 80);
+  border-radius: 10px;
+  margin:5px;
+}
+
+.botao-cancelar:hover {
+  cursor:pointer;
+}
+
+.botao-cancelar:active {
+  background-color:rgb(250, 74, 74);
+}

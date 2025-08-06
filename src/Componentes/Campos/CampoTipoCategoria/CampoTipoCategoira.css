@@ -1,0 +1,17 @@
+.campo-tipo-categoria {
+  width: 95%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-top:20px;
+}
+
+.campo-tipo-categoria select {
+  width: 100%;
+  height: 60px;
+  border-style: solid;
+  border-color: rgb(228, 228, 228);
+  border-radius: 8px;
+  font-size: 20px;
+  padding-left: 10px;
+}

@@ -1,10 +1,17 @@
 .campo-texto {
-  margin: 0px 10px 0px 5px;
+  width: 95%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-top:20px;
 }
 
 .campo-texto input {
-  height: 25px;
-  border: none;
+  width: 100%;
+  height: 60px;
+  border-style: solid;
+  border-color: rgb(228, 228, 228);
   border-radius: 8px;
-
+  font-size: 20px;
+  padding-left: 10px;
 }

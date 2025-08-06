@@ -1,0 +1,45 @@
+.tabela-relatorio {
+  width: 100%;
+}
+
+.tabela-relatorio .table {
+  width:100%;
+  border: 1px solid rgb(187, 187, 187);
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tabela-relatorio .tr {
+  border: 1px solid rgb(187, 187, 187);
+}
+
+.tabela-relatorio .tr-total {
+  border: 1px solid rgb(187, 187, 187);
+  background-color: rgb(241, 241, 241);
+  color:black;
+  font-weight: bold;
+  height: 30px;
+  font-size: 19px;
+}
+
+.tabela-relatorio .td {
+  width: 18%;
+  padding: 5px;
+}
+
+.tabela-relatorio .td-2 {
+  width: 10%;
+}
+
+.tabela-relatorio .td-receita {
+  width: 20%;
+  color: green;
+  font-weight: bold;
+}
+
+.tabela-relatorio .td-despesa {
+  width: 20%;
+  color: red;
+  font-weight: bold;
+}
