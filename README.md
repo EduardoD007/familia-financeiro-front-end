@@ -1,8 +1,6 @@
 <h1 align="center">Família Financeiro</h1>
 <h2 align="center">Projeto do front-end</h2>
 
- <img src="https://img.shields.io/badge/Status%20-%20Em%20desenvolvimento%20-%20blue?style=for-the-badge">
-
 
 <div  align="center">
   <img src="https://github.com/user-attachments/assets/75e93230-3d2b-41bd-8ece-d4a3727f14ef"></img>
@@ -16,7 +14,7 @@
 <p>-Aplicar os conhecimentos adquiridos para utilização do react router.</p>
 <p>-Criar uma API REST de orçamento familiar.</p>
 
-## �� Funcionalidades (em desenvolvimento)
+## �� Funcionalidades 
 <p>Dashboard na página inicial com:</p>
 <p>- Filtro de informações por mês e total do ano.</p>
 <p>- Cards individuais para mostar o total de despesas, receitas e saldo.</p>
